@@ -15,8 +15,8 @@ function Sidebar() {
   return (
     <div className="col-span-2 flex flex-col items-center px-4 md:items-start">
       <img
-        className="m-3 h-10 w-10"
-        src="https://o.remove.bg/downloads/7ec95292-4abf-4fa1-91b9-22116ec2d184/CV922RuXIAA0Zk9-removebg-preview.png"
+        className="m-3 h-8 w-10"
+        src="https://pngimg.com/uploads/twitter/twitter_PNG9.png"
         alt=""
       />
       <SidebarRow Icon={HomeIcon} title="Home" />
