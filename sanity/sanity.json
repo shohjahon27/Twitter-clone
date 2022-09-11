@@ -1,11 +1,11 @@
 {
   "root": true,
-  "api": {
-    "projectId": "jkm1k8jx",
-    "dataset": "production"
-  },
   "project": {
-    "name": "twitter-clone-nextjs"
+    "name": "tomato-jackal"
+  },
+  "api": {
+    "projectId": "9irs6ph9",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
@@ -24,6 +24,10 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/root",
+      "path": "plugins/sanity-plugin-tutorial/CustomDefaultLayout"
     }
   ]
 }
